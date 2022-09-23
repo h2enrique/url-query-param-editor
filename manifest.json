@@ -1,0 +1,13 @@
+{
+    "name": "URL Param Editor",
+    "description": "View and edit query in URL param",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "permissions": ["storage", "tabs", "activeTab"],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "host_permissions": [
+        "http://*/*"
+    ]
+}

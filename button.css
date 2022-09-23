@@ -1,0 +1,66 @@
+#container {
+    background: teal;
+    width: 700px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#params {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+.inputParam {
+    outline: none;
+    height: 20px;
+    width: 300px;
+}
+
+#btns {
+    margin: 20px 0 10px 5px;
+    width: 640px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#btns button {
+    padding: 10px;
+    height: 50px;
+    border: solid;
+    border-radius: 3px;
+}
+
+#btns button:active {
+    background: #fc600a;
+}
+
+#copyFunctions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+button.copy {
+    width: 95px;
+}
+
+button#submitQuery {
+    width: 35%;
+}
+
+#test {
+    display: none;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    background: gold;
+}
